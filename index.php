@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Decarb</title>
 	<?php include 'components/linksAndScripts.php'; ?>
+	<?php include 'database/connect.php'; ?>
 
 </head>
 <body>
