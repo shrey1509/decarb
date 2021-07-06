@@ -1,20 +1,22 @@
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Decarb</a>
-    </li>
-    <li class="nav-item">
-      <input type="button" value="About Us" onClick="document.getElementById('about').scrollIntoView();"/>
-    </li>
-    <li class="nav-item">
-      <input type="button" value="Why Us" onClick="document.getElementById('why').scrollIntoView();" />
-    </li>
-    <li class="nav-item">
-      <input type="button" value="Enquiry" onClick="document.getElementById('enquiry').scrollIntoView();" />
-    </li>
-    <li class="nav-item">
-      <input type="button" value="Gallery" onClick="document.getElementById('gallery').scrollIntoView();" />
-    </li>
-   
-  </ul>
+<nav class="navbar navbar-expand-sm  navbar-light">
+  <img class="logo" src="images/logo.jpg" alt="Decarb" id="home-link">
+  <div class="links">
+    <ul class="navbar-nav">
+      <li class="nav-item" id="about-link">
+        <p class="link">About Us</p>
+      </li>
+      <li class="nav-item" id="why-link">
+        <p class="link">Why Us</p>
+      </li>
+      <li class="nav-item" id="how-link">
+        <p class="link">How it works</p>
+      </li>
+      <li class="nav-item" id="gallery-link">
+        <p class="link">Gallery</p>
+      </li>
+    </ul>
+    <button class="btn enquiry-link" id="enquiry-link">Enquiry</button>
+
+  </div>
+  
 </nav>

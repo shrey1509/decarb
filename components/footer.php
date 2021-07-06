@@ -1,35 +1,30 @@
-<footer class="page-footer font-small blue pt-4">
+<footer class="page-footer footer">
 
-  <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <h5 class="text-uppercase">Contact Us</h5>
-        <a href="admin/login.php">admin login</a>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-   
-      
-
-    </div>
-    <!-- Grid row -->
-
+  
+  <div class="row">
+    <img class="logo-footer" src="images/logo.jpg" alt="Decarb" id="home-link">
   </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="#"> decarb.com</a>
+  <div class="row">
+    <ul class="footer-links">
+      <li class="nav-item" id="about-link">
+        <p class="footer-link">About Us</p>
+      </li>
+      <li class="nav-item" id="why-link">
+        <p class="footer-link">Why Us</p>
+      </li>
+      <li class="nav-item" id="how-link">
+        <p class="footer-link">How it works</p>
+      </li>
+      <li class="nav-item" id="gallery-link">
+        <p class="footer-link">Gallery</p>
+      </li>
+    </ul>
   </div>
-  <!-- Copyright -->
+
+ 
+  <div class="footer-copyright text-center py-3">
+    © 2021 Copyright. All Rights Reserved
+  </div>
+ 
 
 </footer>

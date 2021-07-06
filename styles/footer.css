@@ -1,0 +1,27 @@
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.logo-footer{
+	margin: 2rem;
+}
+
+.footer-links{
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+.footer-link{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.footer-copyright{
+	border-top: 0.1rem solid rgba(128,128,128,0.5);
+	width: 90%;
+}
+
