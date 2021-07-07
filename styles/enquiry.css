@@ -1,4 +1,8 @@
 .enquiry{
 	height: 100vh;
-	background-color: lightgreen;
+	background-image: url("../images/right-geartangle.svg");
+	background-repeat: no-repeat;
+	background-position: -85% 0%;
+	background-size: cover;
 }
+

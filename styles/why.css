@@ -1,4 +1,103 @@
 .why{
-	height: 100vh;
-	background-color: lightgoldenrodyellow;
+	height: 100vh;	
+}
+
+.why-head{
+	height: 10rem;
+}
+
+.gear{
+	position: relative;
+	margin-left: 7rem;
+}
+
+.why-title{
+	position: absolute;
+	left: 12rem;
+	margin-top: 5rem;
+	color: var(--primary);
+	font-weight: bold;
+}
+
+.line{
+	border-bottom: 0.2rem solid orange ;
+	margin-right: 10rem ;
+	margin-bottom: 3.2rem;
+
+}
+
+.why-content{
+	display: grid;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+	grid-template-areas: 
+	"loss smoke smoke" 
+	"loss poor blocked"  
+	"laggy laggy blocked";
+	margin-left: 20rem;
+	margin-right: 20rem;
+	margin-top: 2rem;
+
+}
+
+.why-loss{
+	grid-area: loss;
+	background-image: url("../images/loss-performance.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 25rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.why-smoke{
+	grid-area: smoke;
+	background-image: url("../images/heavy-smoke.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.why-poor{
+	grid-area: poor;
+	background-image: url("../images/poor-mileage.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.why-laggy{
+	grid-area: laggy;
+	background-image: url("../images/lagging-turbo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 7rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.why-blocked{
+	grid-area: blocked;
+	background-image: url("../images/blocked-dpf.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.image-title{
+	color: white;
+	font-weight: 600;
+	font-size: 1.2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+
 }

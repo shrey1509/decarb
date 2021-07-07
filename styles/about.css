@@ -3,5 +3,16 @@ html {
  }
 .about{
 	height: 100vh;
-	background-color: lightcoral;
+	background-image: url("../images/left-geartangle.svg");
+	background-repeat: no-repeat;
+	background-position: 170% 0%;
+	background-size: cover;
+}
+
+.about-title{
+	position: absolute;
+	left: 12rem;
+	margin-top: 5rem;
+	color: white;
+	font-weight: bold;
 }
