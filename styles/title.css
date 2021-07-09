@@ -26,7 +26,7 @@ html {
 	position: absolute;
 	margin-top: 5rem;
 	color: white;
-	margin-left: 5rem;
+	margin-left: 0rem; /*5rem on larger screen*/
 	font-weight: bold;
 }
 
@@ -34,7 +34,7 @@ html {
 	position: absolute;
 	margin-top: 5rem;
 	color: white;
-	margin-left: 45rem;
+	margin-left: 0rem; /*45 rem on large screen*/
 	font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ html {
 @media screen and (max-width: 768px){
 	
 	.about-title{
-		left: 4rem;
+		left: 0rem; /*4rem on larger screens*/
 	}
 	.gear{
 		margin-right: 2rem;

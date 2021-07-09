@@ -26,4 +26,17 @@
 	<script src="animations/header.js"></script>
 	<script src="animations/why.js"></script>
 	<script src="animations/gallerySwiper.js"></script>
+	<script type="text/javascript">
+				
+		function toggleTimes(){
+			$(".togglebars").css({"display": "none"});
+			$(".toggletimes").css({"display": "block"});
+		}
+
+		function toggleBars(){
+			$(".toggletimes").css({"display": "none"});
+			$(".togglebars").css({"display": "block"});
+		}
+
+	</script>
 </html>

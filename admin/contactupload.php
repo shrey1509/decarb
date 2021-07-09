@@ -25,9 +25,9 @@
 	    $mail->SMTPSecure = 'tls';           
 	    $mail->Port       = 587;                                   
 	    
-	    $mail->From = ""
+	    $mail->From = "om1998.ambalkar@gmail.com";
 		$mail->FromName = "Mailer";
-	    $mail->addAddress('');              
+	    $mail->addAddress('om1998.ambalkar@gmail.com');              
 
 	    $mail->isHTML(true);                                  
 	    $mail->Subject = 'New Enquiry';
@@ -37,10 +37,6 @@
 	} catch (Exception $e) {
 	    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 	}
-
-
-
-
 
 	if($conn->query($sql))
 	{

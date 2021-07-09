@@ -1,5 +1,5 @@
 <div class="enquiry" id="enquiry">
-	<div class="container"></div>
+	<div class="container">
 		<div class="row title-head">
 			<div class="gear">
 				<img src="images/dark-gear.svg" alt="gear">

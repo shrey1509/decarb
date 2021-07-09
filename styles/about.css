@@ -16,9 +16,7 @@
 	.about{
 		background-color: var(--primary) ;
 	}
-	.about-title{
-		left: 4rem;
-	}
+	
 	.gear{
 		margin-right: 2rem;
 	}
