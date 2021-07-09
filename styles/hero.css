@@ -29,3 +29,30 @@
 .title-name{
 	color: #F05623;
 }
+
+@media screen and (max-width:  1024px){
+	.hero{
+		height: auto;
+		background-image: none;
+	}
+	.container{
+		margin: 0;
+		display: flex;
+		padding: 0;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.title-content{
+		text-align: center;
+		font-size: 2.5rem;
+	}
+	.sub-content{
+		text-align: center;
+	}
+	/** {
+		  background: #000 !important;
+		  color: #0f0 !important;
+		  outline: solid #f00 1px !important;
+		}*/
+}

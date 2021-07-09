@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-light">
-  <!-- <div class="container"> -->
+  <div class="container">
     <img class="logo" src="images/logo.jpg" alt="Decarb" id="home-link">
 
     <button id="navtoggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -7,8 +7,8 @@
         <span class="toggletimes fa fa-times" style="display: none;"  onclick="toggleBars();"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+      <ul class="navbar-nav links ml-auto">
         <li class="nav-item" id="about-link">
           <p class="link">About Us</p>
         </li>
@@ -26,6 +26,6 @@
 
     </div>
   
-  <!-- </div> -->
+  </div>
   
 </nav>

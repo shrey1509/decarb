@@ -47,13 +47,20 @@ html {
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
 	
 	.about-title{
 		left: 0rem; /*4rem on larger screens*/
 	}
+	.why-title{
+		left: 0rem; /*4rem on larger screens*/
+	}
+	.enquiry-title{
+		left: 0rem; /*4rem on larger screens*/
+	}
 	.gear{
 		margin-right: 2rem;
+		margin-left: 0;
 	}
 	.line{
 		width: 100%;

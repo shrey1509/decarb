@@ -11,14 +11,36 @@
 	border: transparent;
 	border-bottom: solid 0.1rem lightblue;
 }
-.contact-fields{
-	margin:  2rem;
-}
 
+.enquiry-head{
+	margin-left: 35rem;
+}
 .form-group>label{
 	color: white;
 }
 
 .form-title>h4{
 	color: white;
+	margin-top: 2rem;
+}
+
+@media screen and (max-width:  1024px){
+	.enquiry{
+		height: auto;
+		background-color: var(--primary);
+	}
+	.enquiry-content{
+		margin-top: 7rem;
+	}
+	.enquiry-title{
+		text-align: center;
+		padding: 0;
+	}
+	.submit-button{
+		display: flex;
+		justify-content: center;
+	}
+	.contact-fields{
+		width: 80%;
+	}
 }

@@ -12,22 +12,36 @@
 	padding: 1rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
 	.about{
 		background-color: var(--primary) ;
+		height: auto;
 	}
 	
 	.gear{
-		margin-right: 2rem;
+		margin-right: 0;
+	}
+	.row{
+		margin: 0;
 	}
 	.line{
 		width: 100%;
 		margin:  0;
 		
 	}
+	.about-content{
+		padding: 0;
+	}
 	.about-content>p{
 		margin-top: 5rem;
-		padding: 2rem;
+		margin-bottom: 0rem;
+		text-align: center;
+	}
+	.about-title>h1{
+		text-align: center;
+	}
+	.about-title{
+		padding: 0;
 	}
 
 

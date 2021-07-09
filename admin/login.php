@@ -5,7 +5,7 @@
     <?php include '../components/linksAndScripts.php'; ?>
 </head>
 <body>
-    <div class="offset-md-3 col-md-6 offset-md-3">
+    <div class="offset-md-3 col-md-6 offset-md-3" style="margin-top:5rem">
         <h2>Login Form</h2>
 
         <form action="adminlogin.php" method="post">

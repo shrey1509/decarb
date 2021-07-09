@@ -5,7 +5,7 @@
 				<img src="images/light-gear.svg" alt="gear">
 			</div>
 			<div class="col-md-4 why-title">
-				<h1>One step solution for</h1>
+				<h1>One stop solution for</h1>
 			</div>
 			<div class="offset-md-3 col-md-5 line">
 			</div>

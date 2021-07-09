@@ -1,16 +1,16 @@
 <div class="enquiry" id="enquiry">
 	<div class="container">
-		<div class="row title-head">
+		<div class="row enquiry-head title-head">
 			<div class="gear">
-				<img src="images/dark-gear.svg" alt="gear">
-			</div>
-			<div class="offset-md-4 col-md-3 enquiry-title">
+				<!-- <img src="images/dark-gear.svg" alt="gear">
+ -->			</div>
+			<div class="col-md-3 enquiry-title">
 				<h1>Contact us</h1>
 			</div>
-			<div class="offset-md-6 col-md-3 line">
+			<div class="offset-md-5 col-md-4 enquiry-line line">
 			</div>
 		</div>
-		<div class="row">
+		<div class="row enquiry-content">
 			<div class=" form-title offset-md-6 col-md-5">
 				<h4>Please fill in this form so we can contact you</h4>
 			</div>
@@ -45,8 +45,8 @@
 			
 			</div>
 			<div class="contact-fields row">
-				<div class="offset-md-8 col-md-2">
-					<button type="submit" class="btn enquiry-link" name="submit" id="enquiry-link">Enquiry</button>
+				<div class="offset-md-8 col-md-2 submit-button">
+					<button type="submit" class="btn enquiry-link" name="submit" id="enquiry-link">Submit</button>
 				</div>
 			</div>
 		</form>

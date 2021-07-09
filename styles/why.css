@@ -82,11 +82,18 @@
 								"poor"
 								"laggy"
 								"blocked";
+		margin-top: 6rem;
+		margin-right: 0;
+		margin-left: 0;
 
 	}
 
 	.container {
 		margin: 0rem;
+	}
+	.why-title{
+		text-align: center;
+		padding: 0;
 	}
 	.why-loss{
 		grid-area: loss;
@@ -105,6 +112,7 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
+		height: 20rem;
 		display: flex;
 		align-items: flex-end;
 		justify-content: flex-end;
@@ -115,6 +123,7 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
+		height: 20rem;
 		display: flex;
 		align-items: flex-end;
 		justify-content: center;
@@ -125,7 +134,7 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
-		height: 7rem;
+		height: 20rem;
 		display: flex;
 		align-items: flex-end;
 		justify-content: flex-end;
@@ -136,6 +145,7 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
+		height: 20rem;
 		display: flex;
 		align-items: flex-end;
 		justify-content: flex-start;
