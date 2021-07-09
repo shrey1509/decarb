@@ -1,6 +1,4 @@
-html {
-  scroll-behavior: smooth;
- }
+
 .about{
 	height: 100vh;
 	background-image: url("../images/left-geartangle.svg");
@@ -9,10 +7,31 @@ html {
 	background-size: cover;
 }
 
-.about-title{
-	position: absolute;
-	left: 12rem;
-	margin-top: 5rem;
+.about-content>p{
 	color: white;
-	font-weight: bold;
+	padding: 1rem;
+}
+
+@media screen and (max-width: 768px){
+	.about{
+		background-color: var(--primary) ;
+	}
+	.about-title{
+		left: 4rem;
+	}
+	.gear{
+		margin-right: 2rem;
+	}
+	.line{
+		width: 100%;
+		margin:  0;
+		
+	}
+	.about-content>p{
+		margin-top: 5rem;
+		padding: 2rem;
+	}
+
+
+
 }

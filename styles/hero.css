@@ -1,3 +1,31 @@
 .hero{
 	height: 100vh;
+	background-image: url("../images/hero-car.png");
+	background-repeat: no-repeat;
+	background-position: 250% 80%;
+
+}
+
+.hero-title{
+	width: 55%;
+}
+.sub-content{
+	width: 30%;
+	padding-top: 2rem;
+}
+
+.hero-button{
+	padding-top: 2rem;
+}
+
+.title-content{
+	font-size: 3rem;
+	font-weight: 700;
+	margin-top: 2rem;
+	color: var(--primary);
+
+}
+
+.title-name{
+	color: #F05623;
 }

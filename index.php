@@ -8,6 +8,11 @@
 
 </head>
 <body>
+	<div class="spinner-wrapper">
+	    <video autoplay muted loop id="myVideo">
+			<source src="images/preloader.mp4" type="video/mp4">
+		</video>
+	</div>
 	<?php include 'components/header.php'; ?>
 	<?php include 'pages/hero.php'; ?>
 	<?php include 'pages/about.php'; ?>
@@ -17,5 +22,8 @@
 	<?php include 'pages/gallery.php'; ?>
 	<?php include 'components/footer.php'; ?>
 </body>
+	<script src="animations/preLoader.js"></script>
 	<script src="animations/header.js"></script>
+	<script src="animations/why.js"></script>
+	<script src="animations/gallerySwiper.js"></script>
 </html>

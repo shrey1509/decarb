@@ -6,3 +6,19 @@
 	background-size: cover;
 }
 
+.contact-input{
+	background-color: transparent;
+	border: transparent;
+	border-bottom: solid 0.1rem lightblue;
+}
+.contact-fields{
+	margin:  2rem;
+}
+
+.form-group>label{
+	color: white;
+}
+
+.form-title>h4{
+	color: white;
+}

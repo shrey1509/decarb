@@ -2,30 +2,6 @@
 	height: 100vh;	
 }
 
-.why-head{
-	height: 10rem;
-}
-
-.gear{
-	position: relative;
-	margin-left: 7rem;
-}
-
-.why-title{
-	position: absolute;
-	left: 12rem;
-	margin-top: 5rem;
-	color: var(--primary);
-	font-weight: bold;
-}
-
-.line{
-	border-bottom: 0.2rem solid orange ;
-	margin-right: 10rem ;
-	margin-bottom: 3.2rem;
-
-}
-
 .why-content{
 	display: grid;
 	grid-column-gap: 1rem;
@@ -34,8 +10,8 @@
 	"loss smoke smoke" 
 	"loss poor blocked"  
 	"laggy laggy blocked";
-	margin-left: 20rem;
-	margin-right: 20rem;
+	margin-left: 10rem;
+	margin-right: 10rem;
 	margin-top: 2rem;
 
 }
@@ -101,3 +77,6 @@
 	padding-right: 1rem;
 
 }
+
+
+
