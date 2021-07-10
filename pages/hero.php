@@ -7,7 +7,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mauris amet suscipit amet eros, tristique.</p>
 		</div>
 		<div class="row hero-button">
-			 <button class="btn enquiry-link" id="enquiry-link" style="margin-left:0rem">Enquiry</button>
+			 <button class="btn hero-enquiry enquiry-link" id="hero-enquiry-link" style="margin-left:0rem">Enquiry</button>
 		</div>
 	</div>
 

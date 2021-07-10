@@ -22,6 +22,13 @@ html {
 	font-weight: bold;
 }
 
+.how-title{
+	position: absolute;
+	margin-top: 5rem;
+	color: var(--primary);
+	font-weight: bold;
+}
+
 .about-title{
 	position: absolute;
 	margin-top: 5rem;
@@ -30,6 +37,12 @@ html {
 	font-weight: bold;
 }
 
+.gallery-title{
+	position: absolute;
+	margin-top: 5rem;
+	color: var(--primary);
+	font-weight: bold;
+}
 .enquiry-title{
 	position: absolute;
 	margin-top: 5rem;

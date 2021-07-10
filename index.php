@@ -18,25 +18,17 @@
 	<?php include 'pages/about.php'; ?>
 	<?php include 'pages/why.php'; ?>
 	<?php include 'pages/how.php'; ?>
-	<?php include 'pages/enquiry.php'; ?>
 	<?php include 'pages/gallery.php'; ?>
+	<?php include 'pages/enquiry.php'; ?>
 	<?php include 'components/footer.php'; ?>
 </body>
 	<script src="animations/preLoader.js"></script>
 	<script src="animations/header.js"></script>
+	<script src="animations/hero.js"></script>
+	<script src="animations/about.js"></script>
 	<script src="animations/why.js"></script>
+	<script src="animations/how.js"></script>
+	<script src="animations/enquiry.js"></script>
 	<script src="animations/gallerySwiper.js"></script>
-	<script type="text/javascript">
-				
-		function toggleTimes(){
-			$(".togglebars").css({"display": "none"});
-			$(".toggletimes").css({"display": "block"});
-		}
-
-		function toggleBars(){
-			$(".toggletimes").css({"display": "none"});
-			$(".togglebars").css({"display": "block"});
-		}
-
-	</script>
+	<script src="animations/footer.js"></script>
 </html>

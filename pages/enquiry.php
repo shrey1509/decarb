@@ -46,7 +46,7 @@
 			</div>
 			<div class="contact-fields row">
 				<div class="offset-md-8 col-md-2 submit-button">
-					<button type="submit" class="btn enquiry-link" name="submit" id="enquiry-link">Submit</button>
+					<button type="submit" class="btn enquiry-link" name="submit" id="submit-link">Submit</button>
 				</div>
 			</div>
 		</form>

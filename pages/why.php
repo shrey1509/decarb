@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row title-head">
 			<div class="gear">
-				<img src="images/light-gear.svg" alt="gear">
+				<img class="gear-img" src="images/light-gear.svg" alt="gear">
 			</div>
 			<div class="col-md-4 why-title">
 				<h1>One stop solution for</h1>

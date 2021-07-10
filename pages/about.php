@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row title-head">
 			<div class="gear">
-				<img src="images/dark-gear.svg" alt="gear">
+				<img class="gear-img" src="images/dark-gear.svg" alt="gear">
 			</div>
 			<div class="col-md-4 about-title">
 				<h1>Who are we?</h1>
