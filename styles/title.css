@@ -8,12 +8,18 @@ html {
 	margin-right: 10rem;
 }
 .title-head{
-	height: 10rem;
+	/*height: 10rem;*/
 }
 
 .gear{
 	position: relative;
 }
+
+.line{
+	width: 250px;
+	border-bottom: 0.2rem solid orange;
+}
+
 
 .why-title{
 	position: absolute;
@@ -30,11 +36,14 @@ html {
 }
 
 .about-title{
-	position: absolute;
-	margin-top: 5rem;
-	color: white;
-	margin-left: 0rem; /*5rem on larger screen*/
-	font-weight: bold;
+    position: absolute;
+    top: 4rem;
+    white-space: nowrap;
+    left: 5rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
 }
 
 .gallery-title{
@@ -52,18 +61,14 @@ html {
 }
 
 
-.line{
-	border-bottom: 0.2rem solid orange ;
-	margin-right: 10rem ;
-	margin-bottom: 3.2rem;
-
-}
-
 
 @media screen and (max-width: 1024px){
 	
 	.about-title{
-		left: 0rem; /*4rem on larger screens*/
+		top: 6rem;
+		padding: 0;
+    left: -2rem;
+    flex-direction: column;
 	}
 	.why-title{
 		left: 0rem; /*4rem on larger screens*/
@@ -75,11 +80,10 @@ html {
 		margin-right: 2rem;
 		margin-left: 0;
 	}
-	.line{
-		width: 100%;
-		margin:  0;
-		
+	/*.line{
+		width: 250px;
+		border-bottom: 0.2rem solid orange;
 	}
-
+*/
 
 }

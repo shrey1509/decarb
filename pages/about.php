@@ -1,17 +1,19 @@
 <div class="about" id="about">
 	<div class="container">
-		<div class="row title-head">
+		<div class="row">
 			<div class="gear">
 				<img class="gear-img" src="images/dark-gear.svg" alt="gear">
-			</div>
-			<div class="col-md-4 about-title">
-				<h1>Who are we?</h1>
-			</div>
-			<div class="offset-md-2 col-md-4 line">
+				
+				<div class="about-title">
+					<h1>Who are we?</h1>
+					<div class="line"></div>
+				</div>
+				
+
 			</div>
 		</div>
 		<div class="row ">
-			<div class="about-content offset-md-1 col-md-4">
+			<div class="about-content col-md-6" id="about-content">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem pretium eu elementum, est quisque magna eu. Dolor phasellus morbi lectus integer id. Facilisis sit magna eget sed netus nec nunc commodo sit. Nunc eu, ac congue vel posuere donec.
 					> Pharetra fusce dolor proin enim scelerisque. 

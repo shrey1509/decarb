@@ -8,7 +8,10 @@ html, body {
 :root {
   --primary: #0086C7;
 }
-
+/*.n-c{
+	margin-left: 10rem;
+	margin-right: 10rem;
+}*/
 .navbar{
 	display: flex;
 	height:  7rem;
@@ -17,6 +20,7 @@ html, body {
 	/*margin-left: 10rem;
 	margin-right: 10rem;*/
 	width: 100vw;
+	padding:  0 10rem;
 }
 
 .links{
@@ -59,7 +63,7 @@ html, body {
 		font-family: 'Manrope', sans-serif;
 	}
 	.navbar{
-		padding: 0;
+		padding: 0 1rem;
 	}
 	.navbar-collapse{
 		background-color: var(--primary);

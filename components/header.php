@@ -1,13 +1,12 @@
-<nav class="navbar navbar-expand-sm navbar-expand-lg navbar-light">
-  <div class="container">
+ <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-light">
     <img class="logo" src="images/logo.jpg" alt="Decarb" id="home-link">
 
-    <button id="navtoggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="navtoggle" class="navbar-toggler ml-auto collapsed hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="togglebars fa fa-bars" style="display: block;" onclick="toggleTimes();"></span>
         <span class="toggletimes fa fa-times" style="display: none;"  onclick="toggleBars();"></span>
     </button>
 
-    <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+    <div class="collapse navbar-collapse navbar-toggleable-md" id="navbar-collapse">
       <ul class="navbar-nav links ml-auto">
         <li class="nav-item " id="about-link">
           <p class="link about-link">About Us</p>
@@ -25,7 +24,5 @@
       <button class="btn enquiry-link nav-enquiry" id="enquiry-link">Enquiry</button>
 
     </div>
-  
-  </div>
-  
-</nav>
+ 
+</nav> 

@@ -7,7 +7,7 @@
 			<div class="col-md-3 enquiry-title">
 				<h1>Contact us</h1>
 			</div>
-			<div class="offset-md-5 col-md-4 enquiry-line line">
+			<!-- <div class="offset-md-5 col-md-4 enquiry-line line"> -->
 			</div>
 		</div>
 		<div class="row enquiry-content">

@@ -49,6 +49,12 @@
 	}
 	.sub-content{
 		text-align: center;
+		width: 100%;
+		justify-content: center;
+	}
+	.hero-title{
+		width: 100%;
+		justify-content: center;
 	}
 	/** {
 		  background: #000 !important;
