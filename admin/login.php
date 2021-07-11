@@ -19,7 +19,7 @@
                 <label for="password"><b>Password</b></label>
                 <input type="password" class="form-control" placeholder="Enter Password" name="password" required>
             </div>    
-            <div class="row">
+            <div class="row" style="margin-top:1rem">
                 <button class="btn-primary" type="submit">Login</button>
             </div> 
             

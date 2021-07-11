@@ -1,13 +1,15 @@
 <div class="why" id="why">
 	<div class="container">
-		<div class="row title-head">
+		<div class="row">
 			<div class="gear">
 				<img class="gear-img" src="images/light-gear.svg" alt="gear">
-			</div>
-			<div class="col-md-4 why-title">
-				<h1>One stop solution for</h1>
-			</div>
-			<div class="offset-md-3 col-md-5 line">
+				
+				<div class="why-title">
+					<h1>One stop solution for</h1>
+					<div class="line"></div>
+				</div>
+				
+
 			</div>
 		</div>
 		<div class="row why-content">

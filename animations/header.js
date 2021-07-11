@@ -73,3 +73,15 @@ function toggleBars(){
        $(".togglebars").css({"display": "block"});
        }
 
+
+function myFunction(x) {
+  if (x.matches) {
+    document.getElementById("header-nav").classList.remove("ml-auto");
+  } else {
+       document.getElementById("header-nav").classList.add("ml-auto");
+  }
+}
+var x = window.matchMedia("(max-width: 1024px)") ;
+myFunction(x); 
+x.addListener(myFunction) ;
+

@@ -1,13 +1,15 @@
 <div class="how" id="how">
 	<div class="container">
-		<div class="row title-head">
+		<div class="row">
 			<div class="gear">
 				<img class="gear-img" src="images/light-gear.svg" alt="gear">
-			</div>
-			<div class="col-md-4 how-title">
-				<h1>How it works</h1>
-			</div>
-			<div class="offset-md-2 col-md-6 line">
+				
+				<div class="how-title">
+					<h1>How it works</h1>
+					<div class="line"></div>
+				</div>
+				
+
 			</div>
 		</div>
 		<div class="row how-content">

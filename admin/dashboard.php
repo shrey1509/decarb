@@ -11,7 +11,7 @@
 	    <li class="nav-item active">
 	      <a class="nav-link" href="#">Admin Dashboard</a>
 	    </li>
-	    <li class="nav-item">
+	    <li class="nav-item" style="margin-left: 80rem;margin-top: 1rem;">
 	    	<form action="adminlogout.php">
 	    		 <button type="submit" value="Logout">Logout</button>
 	    	</form>
@@ -24,11 +24,11 @@
         <form action="upload.php" method="post" enctype="multipart/form-data">
 
           <div class="container">
-            <div class="row">
-                <input type="file" required class="form-control" id="fileToUpload" name="image"/>
+            <div class="row" >
+                <input type="file" required class="form-control" id="fileToUpload" name="image" style="margin-top:2rem" />
             </div> 
             <div class="row">
-                <button class="btn-primary" type="submit">Upload</button>
+                <button class="btn-primary" type="submit" style="margin-top:2rem">Upload</button>
             </div> 
           </div>
 

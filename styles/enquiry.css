@@ -2,8 +2,9 @@
 	height: 100vh;
 	background-image: url("../images/right-geartangle.svg");
 	background-repeat: no-repeat;
-	background-position: -85% 0%;
+	/*background-position: -85% 0%;*/
 	background-size: cover;
+	margin-top: 3rem;
 }
 
 .contact-input{
@@ -23,11 +24,15 @@
 	color: white;
 	margin-top: 2rem;
 }
+form{
+	margin-top: 1rem;
+}
 
 @media screen and (max-width:  1024px){
 	.enquiry{
 		height: auto;
 		background-color: var(--primary);
+		background-image: none;
 	}
 	.enquiry-content{
 		margin-top: 7rem;
@@ -36,11 +41,26 @@
 		text-align: center;
 		padding: 0;
 	}
+	.form-title{
+		padding: 0;
+	}
 	.submit-button{
 		display: flex;
 		justify-content: center;
 	}
 	.contact-fields{
 		width: 80%;
+	}
+}
+
+@media screen and (min-width:  768px) and (max-width:  1024px){
+	.form-group{
+		width: 100%;
+	}
+	.enquiry-content{
+		margin-top: 1rem;
+	}
+	form{
+		margin-top: 0.2rem;
 	}
 }

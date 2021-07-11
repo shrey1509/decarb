@@ -7,7 +7,7 @@
     </button>
 
     <div class="collapse navbar-collapse navbar-toggleable-md" id="navbar-collapse">
-      <ul class="navbar-nav links ml-auto">
+      <ul class="navbar-nav links ml-auto" id="header-nav">
         <li class="nav-item " id="about-link">
           <p class="link about-link">About Us</p>
         </li>
