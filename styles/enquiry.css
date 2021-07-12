@@ -1,5 +1,5 @@
 .enquiry{
-	height: 100vh;
+	/*height: 100vh;*/
 	background-image: url("../images/right-geartangle.svg");
 	background-repeat: no-repeat;
 	/*background-position: -85% 0%;*/
@@ -29,6 +29,18 @@ form{
 }
 .submit-button{
 	margin-top: 2rem;	
+}
+.form-control{
+	color: white;
+}
+.form-control:focus, .form-control:active {
+    background: transparent;
+    color: white;
+}
+.input-group-append,.input-group-prepend,.input-group-text{
+	background-color: transparent;
+	color: white;
+	border: none;
 }
 
 @media screen and (max-width:  1024px){

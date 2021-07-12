@@ -30,8 +30,8 @@ html, body {
 }
 
 .logo{
-	height: 3rem;
-	width: 6rem;
+	height: 4rem;
+	width: 8rem;
 	margin-bottom: 1rem;
 }
 
@@ -64,7 +64,7 @@ html, body {
 		font-family: 'Manrope', sans-serif;
 	}
 	.navbar{
-		padding: 0 1rem;
+		padding: 2rem;
 	}
 	.navbar-collapse{
 		/*background-color: var(--primary);*/
