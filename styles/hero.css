@@ -70,6 +70,32 @@
 @media screen and (min-width:  575px) and (max-width:  1024px){
 	.hero{
 		margin-top: 7rem;
+		display: flex;
+		justify-content: center;
+	}
+	.about{
+		display: flex;
+		justify-content: center;
+	}
+	.why{
+		display: flex;
+		justify-content: center;
+	}
+	.how{
+		display: flex;
+		justify-content: center;
+	}
+	.gallery{
+		display: flex;
+		justify-content: center;
+	}
+	.enquiry{
+		display: flex;
+		justify-content: center;
+	}
+	footer{
+		display: flex;
+		justify-content: center;
 	}
 }
 @media screen and (max-width:  1280px){

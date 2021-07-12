@@ -1,6 +1,6 @@
 gsap.from(".why-title",{
        scrollTrigger:{
-              trigger: ".about-title",
+              trigger: ".why-title",
               toggleActions: "restart none restart none"
        },
        x:'-100vw',
@@ -62,3 +62,40 @@ gsap.from(".why-blocked",{
 	delay:1.2,
 	ease:"power4.out"
 });
+
+document.getElementById('why-loss').addEventListener("mouseover",function(e) {
+       gsap.to(".why-loss",{borderBottom:"solid 10px #F05623"});
+    });
+
+document.getElementById('why-loss').addEventListener("mouseout",function(e) {
+       gsap.to(".why-loss",{borderBottom:"none"});
+    });
+
+document.getElementById('why-smoke').addEventListener("mouseover",function(e) {
+       gsap.to(".why-smoke",{borderBottom:"solid 10px #F05623"});
+    });
+
+document.getElementById('why-smoke').addEventListener("mouseout",function(e) {
+       gsap.to(".why-smoke",{borderBottom:"none"});
+    });
+document.getElementById('why-poor').addEventListener("mouseover",function(e) {
+       gsap.to(".why-poor",{borderBottom:"solid 10px #F05623"});
+    });
+
+document.getElementById('why-poor').addEventListener("mouseout",function(e) {
+       gsap.to(".why-poor",{borderBottom:"none"});
+    });
+document.getElementById('why-laggy').addEventListener("mouseover",function(e) {
+       gsap.to(".why-laggy",{borderBottom:"solid 10px #F05623"});
+    });
+
+document.getElementById('why-laggy').addEventListener("mouseout",function(e) {
+       gsap.to(".why-laggy",{borderBottom:"none"});
+    });
+document.getElementById('why-blocked').addEventListener("mouseover",function(e) {
+       gsap.to(".why-blocked",{borderBottom:"solid 10px #F05623"});
+    });
+
+document.getElementById('why-blocked').addEventListener("mouseout",function(e) {
+       gsap.to(".why-blocked",{borderBottom:"none"});
+    });

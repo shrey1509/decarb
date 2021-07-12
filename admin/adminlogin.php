@@ -13,7 +13,9 @@
 		}
 	else
 		{
-			echo "Invalid";
+			echo "<script>alert('Invalid Credentials');document.location='index.php'</script>";
+
+
 		}
 
 

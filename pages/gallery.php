@@ -18,18 +18,19 @@
 
             </div>
         </div>
-    </div>
-    <div class="swiper-container mySwiper">
-      <div class="swiper-wrapper"> 
-        <?php while ($row=$result->fetch_assoc()) { ?>  
-        <div class="swiper-slide">
-             <img src="<?php echo ($row['location']); ?>" />
+    
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper"> 
+            <?php while ($row=$result->fetch_assoc()) { ?>  
+            <div class="swiper-slide">
+                 <img src="<?php echo ($row['location']); ?>" />
 
+            </div>
+             <?php } ?>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
-         <?php } ?>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
     </div>
 </div>

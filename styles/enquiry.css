@@ -27,6 +27,9 @@
 form{
 	margin-top: 1rem;
 }
+.submit-button{
+	margin-top: 2rem;	
+}
 
 @media screen and (max-width:  1024px){
 	.enquiry{
@@ -35,7 +38,7 @@ form{
 		background-image: none;
 	}
 	.enquiry-content{
-		margin-top: 7rem;
+		margin-top: 4rem;
 	}
 	.enquiry-title{
 		text-align: center;
@@ -43,6 +46,9 @@ form{
 	}
 	.form-title{
 		padding: 0;
+	}
+	.form-title>h4{
+		text-align: center;
 	}
 	.submit-button{
 		display: flex;
@@ -62,5 +68,8 @@ form{
 	}
 	form{
 		margin-top: 0.2rem;
+	}
+	.submit-button{
+		margin-left: 5rem;
 	}
 }
