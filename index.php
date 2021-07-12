@@ -15,6 +15,9 @@
 			<source src="images/preloader.mp4" type="video/mp4">
 		</video>
 	</div>
+	<a href="https://wa.me/123234345/?text=hi" class="float" target="_blank">
+	<i class="fa fa-whatsapp my-float"></i>
+	</a>
 	<?php include 'components/header.php'; ?>
 	<?php include 'pages/hero.php'; ?>
 	<?php include 'pages/about.php'; ?>
