@@ -45,7 +45,7 @@
 }
 .why-laggy{
 	grid-area: laggy;
-	background-image: url("../images/lagging-turbo.jpg");
+	background-image: url("../images/lagging-turbo.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -58,7 +58,7 @@
 	grid-area: blocked;
 	background-image: url("../images/blocked-dpf.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center right;
 	background-size: cover;
 	display: flex;
 	align-items: flex-end;
@@ -71,6 +71,7 @@
 	font-size: 1.2rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
+	backdrop-filter: blur(10px);
 
 }
 

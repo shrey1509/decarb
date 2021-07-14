@@ -5,7 +5,7 @@
 				<img class="gear-img" src="images/light-gear.svg" alt="gear">
 				
 				<div class="why-title">
-					<h1>One stop solution for</h1>
+					<h1>Key benefits of Decarb</h1>
 					<div class="line"></div>
 				</div>
 				
@@ -14,19 +14,19 @@
 		</div>
 		<div class="row why-content">
 			<div class="why-loss" id="why-loss">>
-				<p class="image-title">LOSS OF PERFORMANCE</p>
+				<p class="image-title">Restores engine horsepower and torque</p>
 			</div>
 			<div class="why-smoke" id="why-smoke">
-				<p class="image-title">HEAVY SMOKE THROUGH EXHAUST</p>
+				<p class="image-title">Lowers emmisions</p>
 			</div>
 			<div class="why-poor" id="why-poor">
-				<p class="image-title">POOR MILEAGE</p>
+				<p class="image-title">Minimizes friction making the engine run smoother</p>
 			</div>
 			<div class="why-laggy" id="why-laggy">
-				<p class="image-title">STICKY/LAGGING TURBO</p>
+				<p class="image-title">Optimizes combustion efficiency</p>
 			</div>
 			<div class="why-blocked" id="why-blocked">
-				<p class="image-title">BLOCKED DPF/EGR</p>
+				<p class="image-title">Improves engine performance and lifespan</p>
 			</div>
 		</div>
 	</div>

@@ -1,5 +1,5 @@
  <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-light">
-    <img class="logo" src="images/logo.jpg" alt="Decarb" id="home-link">
+    <img class="logo" src="images/logo.png" alt="Decarb" id="home-link">
 
     <button id="navtoggle" class="navbar-toggler ml-auto collapsed hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="togglebars fa fa-bars" style="display: block;" onclick="toggleTimes();"></span>

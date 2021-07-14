@@ -64,7 +64,7 @@ gsap.from(".why-blocked",{
 });
 
 document.getElementById('why-loss').addEventListener("mouseover",function(e) {
-       gsap.to(".why-loss",{borderBottom:"solid 10px #F05623"});
+       gsap.to(".why-loss",{borderBottom:"solid 7px #F05623"});
     });
 
 document.getElementById('why-loss').addEventListener("mouseout",function(e) {
@@ -72,28 +72,28 @@ document.getElementById('why-loss').addEventListener("mouseout",function(e) {
     });
 
 document.getElementById('why-smoke').addEventListener("mouseover",function(e) {
-       gsap.to(".why-smoke",{borderBottom:"solid 10px #F05623"});
+       gsap.to(".why-smoke",{borderBottom:"solid 7px #F05623"});
     });
 
 document.getElementById('why-smoke').addEventListener("mouseout",function(e) {
        gsap.to(".why-smoke",{borderBottom:"none"});
     });
 document.getElementById('why-poor').addEventListener("mouseover",function(e) {
-       gsap.to(".why-poor",{borderBottom:"solid 10px #F05623"});
+       gsap.to(".why-poor",{borderBottom:"solid 7px #F05623"});
     });
 
 document.getElementById('why-poor').addEventListener("mouseout",function(e) {
        gsap.to(".why-poor",{borderBottom:"none"});
     });
 document.getElementById('why-laggy').addEventListener("mouseover",function(e) {
-       gsap.to(".why-laggy",{borderBottom:"solid 10px #F05623"});
+       gsap.to(".why-laggy",{borderBottom:"solid 7px #F05623"});
     });
 
 document.getElementById('why-laggy').addEventListener("mouseout",function(e) {
        gsap.to(".why-laggy",{borderBottom:"none"});
     });
 document.getElementById('why-blocked').addEventListener("mouseover",function(e) {
-       gsap.to(".why-blocked",{borderBottom:"solid 10px #F05623"});
+       gsap.to(".why-blocked",{borderBottom:"solid 7px #F05623"});
     });
 
 document.getElementById('why-blocked').addEventListener("mouseout",function(e) {

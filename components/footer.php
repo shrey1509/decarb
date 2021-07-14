@@ -25,8 +25,15 @@
     </div>
 
    
-    <div class="footer-copyright text-center py-3">
-      © 2021 Copyright. All Rights Reserved
+    <div class="footer-copyright py-3">
+      <p>
+        <i class="fas fa-phone-square"></i> +91  96730 00060 <span> +91  79724 88759 </span> <br>
+        <i class="fas fa-envelope"></i> decarb.service<span>@gmail.com</span><br>
+      </p>
+      <p class="footer-right">
+        GovindNagar, Bansilal Nagar, Station Road, Aurangabad - 431001 <br>
+        © 2021 Copyright. All Rights Reserved
+      </p>
     </div>
   </div>
  

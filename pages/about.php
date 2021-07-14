@@ -5,7 +5,7 @@
 				<img class="gear-img" src="images/dark-gear.svg" alt="gear">
 				
 				<div class="about-title">
-					<h1>Who are we?</h1>
+					<h1>About us</h1>
 					<div class="line"></div>
 				</div>
 				

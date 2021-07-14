@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from(".hero-title",{
+gsap.from(".title-content",{
        scrollTrigger:{
               trigger: ".hero-title",
               toggleActions: "restart none restart none"
@@ -11,7 +11,7 @@ gsap.from(".hero-title",{
        delay:0.5
 });
 
-gsap.from(".sub-content",{
+gsap.from(".subtitle-content",{
        scrollTrigger:{
               trigger: ".sub-content",
               toggleActions: "restart none restart none"

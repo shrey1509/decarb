@@ -16,7 +16,7 @@
 		</video>
 	</div>
 	<a href="https://wa.me/123234345/?text=hi" class="float" target="_blank">
-	<i class="fa fa-whatsapp my-float"></i>
+	<i class="fab fa-whatsapp my-float"></i>
 	</a>
 	<?php include 'components/header.php'; ?>
 	<?php include 'pages/hero.php'; ?>

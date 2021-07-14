@@ -24,8 +24,20 @@
 .footer-copyright{
 	border-top: 0.1rem solid rgba(128,128,128,0.5);
 	width: 90%;
+	display: flex;
+	justify-content: space-between;
 }
 
+.footer-right{
+	text-align: right;
+}
+.footer-copyright>p>i{
+	padding-right: 0.5rem;
+}
+.footer-copyright>p>span{
+	display: inline-block;
+	margin-left: 1rem;
+}
 @media screen and (max-width:  1024px){
 	.footer-links{
 		padding: 0;
@@ -33,6 +45,9 @@
 	.footer-link{
 		padding-left: 0.5rem;
 		padding-right: 0.5rem;
+	}
+	.fa-envelope{
+		padding: 0;
 	}
 }
 
