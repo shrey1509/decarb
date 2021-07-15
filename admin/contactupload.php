@@ -20,14 +20,14 @@
 	    $mail->Host       = 'smtp.gmail.com';                 
 	    $mail->SMTPAuth   = true;
                                    
-	    $mail->Username   = '';                    
-	    $mail->Password   = '';                              
+	    $mail->Username   = 'decarb.service@gmail.com';                    
+	    $mail->Password   = 'Decarb@123';                              
 	    $mail->SMTPSecure = 'tls';           
 	    $mail->Port       = 587;                                   
 	    
-	    $mail->From = "om1998.ambalkar@gmail.com";
-		$mail->FromName = "Mailer";
-	    $mail->addAddress('om1998.ambalkar@gmail.com');              
+	    $mail->From = "decarb.service@gmail.com";
+		$mail->FromName = "Decarb enquiry";
+	    $mail->addAddress('decarb.service@gmail.com');              
 
 	    $mail->isHTML(true);                                  
 	    $mail->Subject = 'New Enquiry';

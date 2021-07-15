@@ -15,11 +15,11 @@
 		<div class="row ">
 			<div class="about-content col-md-6" id="about-content">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem pretium eu elementum, est quisque magna eu. Dolor phasellus morbi lectus integer id. Facilisis sit magna eget sed netus nec nunc commodo sit. Nunc eu, ac congue vel posuere donec.
-					> Pharetra fusce dolor proin enim scelerisque. 
-					> Ac lorem viverra vestibulum volutpat tristique malesuada magna blandit. > Lacus posuere urna elementum scelerisque congue dui, dictum at. 
-					> Aliquet euismod ac dui vel mi in ac leo. Ac ultrices in morbi tristique.  
-					> Gravida nulla nunc sed in.
+					<b>Decarb</b> is a CircleNS subsidiary whose primary aim is
+					to provide customers with sustainable and environmentally beneficial solutions.<br> We apply patented technology to minimise carbon
+					emissions while also revitalising your engine for smooth operation.<br> We are dedicated
+					to providing updated technology at an accessible price in order to achieve 100 percent
+					customer satisfaction.
 				</p>
 			</div>
 			

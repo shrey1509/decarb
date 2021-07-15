@@ -122,6 +122,9 @@ document.getElementById('card-5').addEventListener("click",function(e) {
        gsap.to(".card-5-img",{opacity:1,display:"block",delay:5.5});
     });
 
+document.getElementById('info-icon').addEventListener("click",function(e) {
+       gsap.to(".how-info",{display:"block"});
+});
 //---------------------//
 function myFunction(x) {
   if (x.matches) {

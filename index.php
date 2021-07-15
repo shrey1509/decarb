@@ -15,7 +15,8 @@
 			<source src="images/preloader.mp4" type="video/mp4">
 		</video>
 	</div>
-	<a href="https://wa.me/123234345/?text=hi" class="float" target="_blank">
+	<a href="https://wa.me/+917972488759/?text=Hi, I am interested in reviving my Vehicle ! :) Please share 
+more details !" class="float" target="_blank">
 	<i class="fab fa-whatsapp my-float"></i>
 	</a>
 	<?php include 'components/header.php'; ?>

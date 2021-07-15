@@ -44,6 +44,23 @@
 				<p class="card-info card-5-info" >In the end, series of check-up procedures are carried out</p>
 			</div>
 		</div>
+		<div class="row how-info-sec">
+			<i class="fas fa-info-circle" id="info-icon"></i>
+			<p class="how-info">
+				The increased internal oxygen proportion improves combustion and at the same
+				time the catalytic properties of hydrogen make it possible for the combustion
+				carbon to be gradually broken down to clear the internal carbon deposits. As it
+				passes through the induction system, combustion chamber, exhaust etc. the
+				hydrogen reacts with the carbon deposits turning the carbon into hydrocarbons,
+				this lifts the carbon deposits from the engine and the resulting gas exits the
+				engine via the exhaust system. Using no harsh chemicals, the treatment returns
+				your engine to a state of cleanliness. You regain power and performance, restore
+				mileage, and drastically cut emissions.	
+			</p>
+		</div>
+		<div class=video-player>
+			<iframe src="https://www.youtube.com/embed/o7jdVJbhcic" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
 		
 	</div>
 </div>
