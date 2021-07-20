@@ -45,7 +45,7 @@
 			</div>
 		</div>
 		<div class="row how-info-sec">
-			<i class="fas fa-info-circle" id="info-icon"></i>
+			<i class="fas fa-info-circle" id="info-icon"> - Click for more information</i>
 			<p class="how-info">
 				The increased internal oxygen proportion improves combustion and at the same
 				time the catalytic properties of hydrogen make it possible for the combustion
@@ -59,7 +59,7 @@
 			</p>
 		</div>
 		<div class=video-player>
-			<iframe src="https://www.youtube.com/embed/o7jdVJbhcic" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/5Mhs8cMKnuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		
 	</div>

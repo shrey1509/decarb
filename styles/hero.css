@@ -33,7 +33,11 @@
 .title-name{
 	color: #F05623;
 }
-
+.subtitle-focus{
+	font-weight: 800;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
 .float{
 	position:fixed;
 	width:60px;

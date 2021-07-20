@@ -18,7 +18,7 @@
 					<b>Decarb</b> is a CircleNS subsidiary whose primary aim is
 					to provide customers with sustainable and environmentally beneficial solutions.<br> We apply patented technology to minimise carbon
 					emissions while also revitalising your engine for smooth operation.<br> We are dedicated
-					to providing updated technology at an accessible price in order to achieve 100 percent
+					to providing updated technology at an accessible price in order to achieve 100 %
 					customer satisfaction.
 				</p>
 			</div>

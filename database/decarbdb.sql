@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 05, 2021 at 11:51 AM
+-- Generation Time: Jul 20, 2021 at 09:37 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -38,7 +38,22 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
-(1, 'admin', 'f8148a81ce2a4b1dec518b4710a0acc9');
+(1, 'Decarb.service', '858915f1d2d425959fd4da867ba6b599');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `contactinfo`
+--
+
+CREATE TABLE `contactinfo` (
+  `id` int(11) NOT NULL,
+  `fullName` varchar(500) NOT NULL,
+  `phoneNo` varchar(250) NOT NULL,
+  `email` varchar(500) NOT NULL,
+  `carName` varchar(500) NOT NULL,
+  `engineCC` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -52,13 +67,6 @@ CREATE TABLE `gallery` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `gallery`
---
-
-INSERT INTO `gallery` (`id`, `location`) VALUES
-(2, 'gallery/Waves.png');
-
---
 -- Indexes for dumped tables
 --
 
@@ -66,6 +74,12 @@ INSERT INTO `gallery` (`id`, `location`) VALUES
 -- Indexes for table `admin`
 --
 ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `contactinfo`
+--
+ALTER TABLE `contactinfo`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -85,10 +99,16 @@ ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
+-- AUTO_INCREMENT for table `contactinfo`
+--
+ALTER TABLE `contactinfo`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

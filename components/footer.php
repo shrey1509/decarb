@@ -2,7 +2,8 @@
 
   <div class="container footer">
     <div class="row">
-      <img class="logo-footer" src="images/logo.jpg" alt="Decarb" id="home-link">
+      <img class="logo-footer-1" src="images/logo.png" alt="Decarb" id="home-link">
+      <img class="logo-footer-2" src="images/parent-logo.png" alt="Decarb-Parent">
     </div>
     <div class="row">
       <ul class="footer-links">
@@ -31,7 +32,7 @@
         <i class="fas fa-envelope"></i> decarb.service<span>@gmail.com</span><br>
       </p>
       <p class="footer-right">
-        GovindNagar, Bansilal Nagar, Station Road, Aurangabad - 431001 <br>
+        <a target="_blank"  href="https://m.facebook.com/Decarb-106936691675261/"><i class="fab fa-facebook-square"></i></a> <a  target="_blank" href="https://instagram.com/decarb_aurangabad?utm_medium=copy_link"><i class="fab fa-instagram"></i></a><br>
         © 2021 Copyright. All Rights Reserved
       </p>
     </div>
