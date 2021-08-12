@@ -20,8 +20,8 @@
 	    $mail->Host       = 'smtp.gmail.com';                 
 	    $mail->SMTPAuth   = true;
                                    
-	    $mail->Username   = 'decarb.service@gmail.com';                    
-	    $mail->Password   = 'Decarb@123';                              
+	    $mail->Username   = '';                    
+	    $mail->Password   = '';                              
 	    $mail->SMTPSecure = 'tls';           
 	    $mail->Port       = 587;                                   
 	    
